@@ -18,19 +18,23 @@
   <body>
     <form class="container">
       <h1>Currency Converter</h1>
-      <h3>Amount</h3>
-      <input type="number" />
+
+        <h3>Amount</h3>
+        <input type="number" />
+
 
       <!-- drop-down -->
       <div class="dropdown">
         <!-- from -->
         <div class="from">
           <h3>From</h3>
-          <img src="https://flagsapi.com/US/flat/64.png" alt="country-flag" />
-          <select class="from-currency" name="from-currency">
-            <option value="USD">USD</option>
-            <option value="INR">INR</option>
-          </select>
+          <span>
+            <img src="https://flagsapi.com/US/flat/64.png" alt="country-flag" />
+            <select class="from-currency" name="from-currency">
+              <option value="USD">USD</option>
+              <option value="INR">INR</option>
+            </select>
+          </span>
         </div>
 
         <!-- exchange icon -->
@@ -39,11 +43,13 @@
         <!-- to -->
         <div class="to">
           <h3>To</h3>
-          <img src="https://flagsapi.com/IN/flat/64.png" alt="country-flag" />
-          <select class="to-currency" name="to-currency">
-            <option value="INR">INR</option>
-            <option value="USD">USD</option>
-          </select>
+          <span>
+            <img src="https://flagsapi.com/IN/flat/64.png" alt="country-flag" />
+            <select class="to-currency" name="to-currency">
+              <option value="INR">INR</option>
+              <option value="USD">USD</option>
+            </select>
+          </span>
         </div>
       </div>
 
